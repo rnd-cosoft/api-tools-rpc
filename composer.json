@@ -1,5 +1,5 @@
 {
-    "name": "laminas-api-tools/api-tools-rpc",
+    "name": "rnd-cosoft/api-tools-rpc",
     "description": "Laminas Module for simplifying the creation of RPC services",
     "license": "BSD-3-Clause",
     "keywords": [
