@@ -33,8 +33,8 @@
     },
     "require": {
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
-        "laminas-api-tools/api-tools-api-problem": "^1.6",
-        "laminas-api-tools/api-tools-content-negotiation": "^1.8",
+        "rnd-cosoft/api-tools-api-problem": "^1.6",
+        "rnd-cosoft/api-tools-content-negotiation": "^1.8",
         "laminas/laminas-eventmanager": "^3.4",
         "laminas/laminas-http": "^2.15.1",
         "laminas/laminas-mvc": "^3.3",
@@ -68,6 +68,9 @@
         "static-analysis": "psalm --shepherd --stats",
         "test": "phpunit --colors=always",
         "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
+    },
+    "replace": {
+        "laminas-api-tools/api-tools-rpc": "*"
     },
     "conflict": {
         "zfcampus/zf-rpc": "*"
